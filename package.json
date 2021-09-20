@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/Mateus0808/clean-node-api.git"
   },
+  "standard": {
+    "env": ["jest"]
+  },
   "lint-staged": {
     "*.js": [
       "standard --fix",
